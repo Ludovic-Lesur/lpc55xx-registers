@@ -5,6 +5,12 @@
  *      Author: Ludo
  */
 
+#ifndef LPC55XX_REGISTERS_DISABLE_FLAGS_FILE
+#include "lpc55xx_registers_flags.h"
+#endif
+
+#ifndef LPC55XX_REGISTERS_DISABLE
+
 #ifndef __SYSTICK_REGISTERS_H__
 #define __SYSTICK_REGISTERS_H__
 
@@ -26,3 +32,5 @@ typedef struct {
 } SYSTICK_registers_t;
 
 #endif /* __SYSTICK_REGISTERS_H__ */
+
+#endif /* LPC55XX_REGISTERS_DISABLE */

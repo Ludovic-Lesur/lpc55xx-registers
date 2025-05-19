@@ -5,6 +5,12 @@
  *      Author: Ludo
  */
 
+#ifndef LPC55XX_REGISTERS_DISABLE_FLAGS_FILE
+#include "lpc55xx_registers_flags.h"
+#endif
+
+#ifndef LPC55XX_REGISTERS_DISABLE
+
 #ifndef __NMPA_REGISTERS_H__
 #define __NMPA_REGISTERS_H__
 
@@ -39,3 +45,5 @@
 #define NMPA_PVT_MONITOR_1_RINGO                (*((volatile uint32_t*) NMPA_PVT_MONITOR_1_RINGO_ADDR))
 
 #endif /* __NMPA_REGISTERS_H__ */
+
+#endif /* LPC55XX_REGISTERS_DISABLE */

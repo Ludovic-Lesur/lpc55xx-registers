@@ -5,6 +5,12 @@
  *      Author: Ludo
  */
 
+#ifndef LPC55XX_REGISTERS_DISABLE_FLAGS_FILE
+#include "lpc55xx_registers_flags.h"
+#endif
+
+#ifndef LPC55XX_REGISTERS_DISABLE
+
 #ifndef __USB_HS_PHY_REGISTERS_H__
 #define __USB_HS_PHY_REGISTERS_H__
 
@@ -54,3 +60,5 @@ typedef struct {
 } USB_HS_PHY_registers_t;
 
 #endif /* __USB_HS_PHY_REGISTERS_H__ */
+
+#endif /* LPC55XX_REGISTERS_DISABLE */

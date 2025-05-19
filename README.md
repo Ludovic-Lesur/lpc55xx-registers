@@ -13,3 +13,4 @@ The driver relies on:
 | **Flag name** | **Value** | **Description** |
 |:---:|:---:|:---:|
 | `LPC55XX_REGISTERS_DISABLE_FLAGS_FILE` | `defined` / `undefined` | Disable the `lpc55xx_registers_flags.h` header file inclusion when compilation flags are given in the project settings or by command line. |
+| `LPC55XX_REGISTERS_DISABLE` | `defined` / `undefined` | Disable the LPC55xx registers. |
